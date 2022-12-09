@@ -13,7 +13,7 @@ from diffusers.utils import PIL_INTERPOLATION, deprecate, logging
 from transformers import CLIPFeatureExtractor, CLIPTextModel, CLIPTokenizer
 
 
-logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
+logger = logging.get_logger(__name__)  # pylint: disable=invalid-name ## ADIK CODE
 
 re_attention = re.compile(
     r"""
